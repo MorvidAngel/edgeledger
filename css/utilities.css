@@ -29,7 +29,7 @@
 }
 
 .btn-secondary,
-.bgsecondary {
+.bg-secondary {
     background-color: #0284d0;
     color: #fff;
 }
@@ -65,6 +65,11 @@
 }
 
 /* flex columns */
+/* this is what you add to css when you use flex reverse */
+/* .flex-columns .flex-reverse .row {
+    flex-direction: row-reverse;
+} */
+
 .flex-columns .row {
     display: flex;
     flex-direction: row;
@@ -94,7 +99,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    justify-content: start;
+    justify-content: center;
     padding: 30px;
 }
 
@@ -109,4 +114,36 @@
 
 .flex-columns p {
     margin: 20px 0;
+}
+
+/* section header */
+.section-header {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.section-header h2 {
+    font-size: 40px;
+    margin: 20px 0;
+}
+
+.section-padding {
+    padding: 20px 20px 40px;
+}
+
+/* flex grid */
+.flex-grid .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.flex-grid .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
 }
