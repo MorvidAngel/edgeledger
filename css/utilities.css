@@ -66,9 +66,9 @@
 
 /* flex columns */
 /* this is what you add to css when you use flex reverse */
-/* .flex-columns .flex-reverse .row {
+.flex-columns.flex-reverse .row {
     flex-direction: row-reverse;
-} */
+}
 
 .flex-columns .row {
     display: flex;
